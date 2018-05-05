@@ -1,0 +1,83 @@
+/* Epub CSS Goes Here */
+
+@font-face {
+	font-family: Ruluko;
+	src: url('../fonts/Ruluko-Regular.ttf')
+}
+
+* {
+	font-family: Garamond, 'Times New Roman', serif;
+	line-height: 1.5em;
+}
+
+h1, h2, h3 {
+	font-family: Ruluko, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+p.page-break {
+page-break-after: always;
+}
+
+h1, h2 {
+  line-height: 1.0em;
+}
+
+blockquote {
+  border-left: 2px solid gray;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+figcaption {
+  display: none;
+}
+
+a.footnote-ref {
+	vertical-align: super;
+	font-size: 80%
+}
+
+.footnotes ol li {
+	font-size: 60%;
+}
+
+.drink {
+  background-color: #c3c3c3;
+	page-break-inside: avoid;
+}
+
+.drink img {
+  width: 20%;
+  height: auto;
+  margin-top: -10%;
+}
+
+.drink figure {
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+figure + p {
+  padding-top: 0;
+    margin-top: 0;
+  font-size: 30%;
+}
+
+figure {
+margin: 0;
+}
+
+.drink img {
+  float: left;
+}
+
+.drink p {
+  padding: 20% 0 20% 0;
+  margin: 10%;
+
+figure {
+  background-color: #c3c3c3 !important;
+}
